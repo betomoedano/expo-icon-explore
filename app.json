@@ -1,27 +1,26 @@
 {
   "expo": {
-    "scheme": "acme",
+    "scheme": "expo-icons",
     "userInterfaceStyle": "automatic",
     "orientation": "default",
-    "platforms": ["web"],
+    "platforms": [
+      "web"
+    ],
     "web": {
       "output": "static",
-      "bundler": "metro",
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      [
-        "expo-router",
-        {
-          "origin": "https://n"
-        }
-      ]
+      "expo-router"
     ],
-    "name": "icon-explore",
-    "slug": "icon-explore",
+    "name": "icons",
+    "slug": "icons",
     "extra": {
+      "router": {
+        "origin": false
+      },
       "eas": {
-        "projectId": "f83b6d78-dcac-4b4a-a55f-e7ae64a8061b"
+        "projectId": "a684c933-4a3a-48ae-bc55-cd138eb38299"
       }
     }
   }
