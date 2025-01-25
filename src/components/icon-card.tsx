@@ -12,8 +12,8 @@ export default function IconCard({ icon, onClick }: IconCardProps) {
       onClick={onClick}
     >
       <CardContent className="p-0 flex flex-col items-center gap-1">
-        <div className="w-8 h-8 flex items-center justify-center" >
-          <icon.Icon />
+        <div className="w-8 h-8 flex items-center justify-center">
+          <icon.Icon color={"var(--foreground)"} />
         </div>
         <p className="text-xs text-center truncate w-full text-muted-foreground">
           {icon.name}
